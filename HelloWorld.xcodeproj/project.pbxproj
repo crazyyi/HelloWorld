@@ -12,6 +12,7 @@
 		A328E9AC1952B7ED00289ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A328E9AA1952B7ED00289ED6 /* Main.storyboard */; };
 		A328E9AE1952B7ED00289ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A328E9AD1952B7ED00289ED6 /* Images.xcassets */; };
 		A328E9BA1952B7ED00289ED6 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328E9B91952B7ED00289ED6 /* HelloWorldTests.swift */; };
+		A34E6D001952D9E900A75CC9 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34E6CFF1952D9E900A75CC9 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		A328E9B31952B7ED00289ED6 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A328E9B81952B7ED00289ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A328E9B91952B7ED00289ED6 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		A34E6CFF1952D9E900A75CC9 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				A328E9A61952B7ED00289ED6 /* AppDelegate.swift */,
 				A328E9A81952B7ED00289ED6 /* ViewController.swift */,
+				A34E6CFF1952D9E900A75CC9 /* TipCalculatorModel.swift */,
 				A328E9AA1952B7ED00289ED6 /* Main.storyboard */,
 				A328E9AD1952B7ED00289ED6 /* Images.xcassets */,
 				A328E9A41952B7ED00289ED6 /* Supporting Files */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34E6D001952D9E900A75CC9 /* TipCalculatorModel.swift in Sources */,
 				A328E9A91952B7ED00289ED6 /* ViewController.swift in Sources */,
 				A328E9A71952B7ED00289ED6 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				A328E9BF1952B7ED00289ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A328E9C01952B7ED00289ED6 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				A328E9C21952B7ED00289ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
